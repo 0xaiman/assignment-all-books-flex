@@ -157,44 +157,9 @@ i,i::before, button, .card, .left-side p{
     .banner{
         margin-top: 22px;
         margin-bottom: 16px;
-        width:100%;
     }
 
-    .main{
-        border: 1px solid red;
-        width: 412px;
-    }
-    .text-container,
-    .banner{
-      
-      
-        border: 1px solid blue;
-        display: inline-block;
-        width: 100%;
-        position: relative;
-        left: 50%;
-        transform: translate(-50%, 0%);
-        overflow-x: scroll;
-        /* scroll-snap-type: x mandatory; */
-        
-    }
-
-    .text-container span{
-        display: block;
-       
-        position: relative;
-        max-width: 100%;
-        margin: 0 auto;
-
-
-
-        left: 50%;
-       
-    }
-
-
-   
-   
+  
     
 }
 
