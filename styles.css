@@ -135,7 +135,7 @@ i,i::before, button, .card, .left-side p{
 }
 
 .banner h1{
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 56px;
     font-weight: 300;
     color:var(--yellow-banner-text);
