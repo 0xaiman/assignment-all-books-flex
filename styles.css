@@ -116,7 +116,8 @@ i,i::before, button, .card, .left-side p{
     background-color: var(--yellow);
     display: flex;
     margin: 27px auto;
-    
+    justify-content: center;
+    overflow: hidden;
 
     
 }
@@ -127,6 +128,8 @@ i,i::before, button, .card, .left-side p{
     gap:24px;
     background-color: var(--yellow);
     margin: 0 auto;
+    justify-content: center;
+
    
    
 
@@ -135,10 +138,11 @@ i,i::before, button, .card, .left-side p{
 }
 
 .banner h1{
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 56px;
     font-weight: 300;
     color:var(--yellow-banner-text);
+    
   
 
 }
