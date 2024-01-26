@@ -13,6 +13,7 @@
     padding:0;
     box-sizing:border-box;
     font-family: 'Inter';
+    transition: 0.1s ease-in-out;;
 }
 
 body{
@@ -29,6 +30,12 @@ li a{
     text-decoration: none;
     color:var(--placeholder-white);
 }
+
+li a:hover, i:hover{
+    color:var(--yellow-banner-text);
+
+}
+
 /* section-1 (contains banner and header) */
 
 /* section-1 */
@@ -91,6 +98,11 @@ i,i::before, button, .card, .left-side p{
     letter-spacing: 0.15%;
     
 }
+.button-login:hover{
+    color:black;
+    background-color: white;
+}
+
 /* header styling ends */
 /* Mediaquery header start */
 @media (max-width: 900px) {
@@ -249,6 +261,12 @@ main{
     padding:8px 12px;
     border:1px solid black;
     border-radius:30px;
+}
+.comment-star:hover,
+.comment-text:hover,
+.card i:hover{
+    background-color: var(--yellow);
+    color:var(--placeholder-white);
 }
 
 .price-tag{
