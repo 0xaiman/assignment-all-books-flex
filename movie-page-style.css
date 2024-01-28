@@ -246,8 +246,8 @@ vertical-align: baseline;
     display: flex;
     width:596px;
     height: 296px;
-    border:1px solid red;
     border-radius:20px;
+    /* border:0.15px solid black; */
     padding:16px;
     background-color: var(--placeholder-white);
 
@@ -260,11 +260,13 @@ vertical-align: baseline;
     gap:20px;
 }
 
+
 .user-info,
 .comment-card #top-section,
 .comment-card #star{
     display:flex;
     flex-direction: row;
+    align-items: center;
 }
 .user-info,
 .comment-card-content #bottom-section{
@@ -282,6 +284,12 @@ vertical-align: baseline;
 }
 .comment-card #star{
     gap:4px;
+}
+#comment p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 5;
 }
 
 .comment-card #star i.fa-regular.fa-star,
@@ -335,4 +343,9 @@ vertical-align: baseline;
         flex-direction: row;
     }
 
+    }
+
+
+    .none{
+        display: none;
     }
