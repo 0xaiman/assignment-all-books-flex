@@ -1,0 +1,67 @@
+main{
+    color:white;
+    padding: 40px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 20px 0;
+    border:none;
+    border-top: 1px solid white;
+}
+legend{
+    font-size: 20px;
+}
+
+fieldset .text{
+    padding:16px;
+    width: 572px;
+    height: 56px;
+    border-radius: 16px;
+    border:white;
+}
+
+fieldset span{
+    width:113px;
+}
+
+fieldset .radio-container{
+    display: flex;
+    flex-direction: row;
+    width: 572px;
+    justify-content: space-evenly;
+    text-wrap: nowrap;
+}
+
+fieldset .radio-container span{
+    display: flex;
+    flex-direction: row;
+    gap:16px;
+
+}
+
+label{
+    display: flex;
+    flex-direction: row;
+    gap:24px;
+    align-items: center;
+}
+
+fieldset .checkbox-container{
+    display: flex;
+    flex-direction: row;
+    gap:25px;
+    width: 572px;
+    text-wrap: nowrap;
+
+}
+
+#save-your-book{
+   width: 709px;
+    border-radius: 16px;
+    padding: 16px;
+    background-color: #F4CE47;
+    border: #F4CE47;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="form-style.css">
+    <script src="https://kit.fontawesome.com/dc94c0c956.js" crossorigin="anonymous"></script>
+    <title>Big Bookshelf | Kelas Programming Assignment</title>
+</head>
+<body>
+    <!-- header STart -->
+    <header class="header">
+        <img src="./assets/logo.svg" class="logo" alt="logo"/>
+        <ul class="main-nav">
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Author</a></li>
+            <li><a href="#">What to Read?</a></li>
+            <li><a href="#">Gift Ideas</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+        <div class="side-nav">
+            <ul class="nav-icons">
+                <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li><a href=""><i class="fa-regular fa-bookmark"></i></a></li>
+                <li><a href=""><i  class="fa-solid fa-basket-shopping"></i></a></li>
+            </ul>
+            <button class="button-login">LOGIN</button>
+
+        </div>
+       
+
+    </header>
+    <!-- header End -->
+    <main>
+        <h1>REGISTER YOUR BOOK</h1>
+        <form action="post">
+            <fieldset>
+                <legend>Book Details</legend>
+                <label><span>Title</span> <input class="text" placeholder="Your book title here. E.g. Harry Potter and The Fantastic Bootcamp"/></label>
+                <label><span>Genre</span> <input class="text" placeholder="Your book genre here. E.g. Fantasy"/></label>
+                <label><span>Author</span> <input class="text" placeholder="Your book author here. E.g. J. K. Rowling"/></label>
+                <label><span>Publisher</span> <input class="text" placeholder="Publisher of the book. E.g. Pustaka Melang"/></label>
+                <label><span>Year Published</span> <input class="text" placeholder="1994"/></label>
+                <label><span>Availability</span>  <span class="radio-container"><span><input class="radio" name="availability" type="radio"/>Online</span><span><input name="availability" class="radio" type="radio"/>In Store</span><span><input name="availability" class="radio" type="radio"/>Online & In Store</span></span></label>
+                <label><span>Pages</span> <input class="text" placeholder="514"/></label>
+                <label><span>Language</span> <input class="text" placeholder="Language used in the book. E.g. English"/></label>
+
+            </fieldset>
+            <fieldset>
+                <legend>Registree Details</legend>
+                <label><span>Name</span> <input class="text" placeholder="Language used in the book. E.g. English"/></label>
+                <label><span>Email</span> <input class="text" placeholder="Your email. E.g. l.yeon@email.com"/></label>
+                <div class="checkbox-container"><input type="checkbox"/><span>I hereby agree to follow all rules and confirmed that all details are accurate</span></div>
+                <button id="save-your-book">SAVE YOUR BOOK</button>
+            </fieldset>
+        </form>
+
+    </main>
+   
+
+    <footer class="footer">
+        <div class="top-footer">
+            <img src="./assets/logo.svg" class="logo-footer" alt="logo"/>
+            <ul class="footer-icons">
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+            </ul>
+
+        </div>
+        <div class="bottom-footer">
+            <div class="left-side">
+                <p>Terms and conditions</p>
+                <p>Privacy policy</p>
+            </div>
+            <div class="right-side">
+                <p>+44 1332 412251</p>
+                <p>support@bbookshelf.com</p>
+            </div>
+        </div>
+       
+
+
+    </footer>
+    
+</body>
+</html>
