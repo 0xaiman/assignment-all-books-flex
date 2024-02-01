@@ -1,7 +1,26 @@
+
+header {
+    /* margin: 28px 24px; */
+    width: 1200px;
+    height: 96px;
+
+}
+
+header .logo {
+    width:186px;
+    height: auto;
+}
+ 
+
 main{
     color:white;
     padding: 40px;
+    margin: 24px;
+    border-radius: 20px;
+    border: 1px solid #2a2c2e;;
 }
+
+
 
 fieldset{
     display: flex;

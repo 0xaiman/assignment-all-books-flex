@@ -12,21 +12,6 @@
     <!-- header STart -->
     <header class="header">
         <img src="./assets/logo.svg" class="logo" alt="logo"/>
-        <ul class="main-nav">
-            <li><a href="#">Books</a></li>
-            <li><a href="#">Author</a></li>
-            <li><a href="#">What to Read?</a></li>
-            <li><a href="#">Gift Ideas</a></li>
-            <li><a href="#">About Us</a></li>
-        </ul>
-        <div class="side-nav">
-            <ul class="nav-icons">
-                <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                <li><a href=""><i class="fa-regular fa-bookmark"></i></a></li>
-                <li><a href=""><i  class="fa-solid fa-basket-shopping"></i></a></li>
-            </ul>
-            <button class="button-login">LOGIN</button>
-
         </div>
        
 
@@ -37,21 +22,21 @@
         <form action="post">
             <fieldset>
                 <legend>Book Details</legend>
-                <label><span>Title</span> <input class="text" placeholder="Your book title here. E.g. Harry Potter and The Fantastic Bootcamp"/></label>
-                <label><span>Genre</span> <input class="text" placeholder="Your book genre here. E.g. Fantasy"/></label>
-                <label><span>Author</span> <input class="text" placeholder="Your book author here. E.g. J. K. Rowling"/></label>
-                <label><span>Publisher</span> <input class="text" placeholder="Publisher of the book. E.g. Pustaka Melang"/></label>
-                <label><span>Year Published</span> <input class="text" placeholder="1994"/></label>
-                <label><span>Availability</span>  <span class="radio-container"><span><input class="radio" name="availability" type="radio"/>Online</span><span><input name="availability" class="radio" type="radio"/>In Store</span><span><input name="availability" class="radio" type="radio"/>Online & In Store</span></span></label>
-                <label><span>Pages</span> <input class="text" placeholder="514"/></label>
-                <label><span>Language</span> <input class="text" placeholder="Language used in the book. E.g. English"/></label>
+                <label for="title"><span>Title</span> <input name="title" class="text" placeholder="Your book title here. E.g. Harry Potter and The Fantastic Bootcamp"/></label>
+                <label for="genre"><span>Genre</span> <input name="genre" class="text" placeholder="Your book genre here. E.g. Fantasy"/></label>
+                <label for="author"><span>Author</span> <input name="author" class="text" placeholder="Your book author here. E.g. J. K. Rowling"/></label>
+                <label for="publisher"><span>Publisher</span> <input ame="publisher" class="text" placeholder="Publisher of the book. E.g. Pustaka Melang"/></label>
+                <label for="year-published"><span>Year Published</span> <input name="year-published" class="text" type="number" placeholder="1994"/></label>
+                <label for="availability"><span>Availability</span>  <span class="radio-container"><span><input class="radio" name="availability" type="radio"/>Online</span><span><input name="availability" class="radio" type="radio"/>In Store</span><span><input name="availability" class="radio" type="radio"/>Online & In Store</span></span></label>
+                <label for="pages"><span>Pages</span> <input name="pages" class="text" placeholder="514" type="number"/></label>
+                <label for="language"><span>Language</span> <input name="language" class="text" placeholder="Language used in the book. E.g. English"/></label>
 
             </fieldset>
             <fieldset>
                 <legend>Registree Details</legend>
-                <label><span>Name</span> <input class="text" placeholder="Language used in the book. E.g. English"/></label>
-                <label><span>Email</span> <input class="text" placeholder="Your email. E.g. l.yeon@email.com"/></label>
-                <div class="checkbox-container"><input type="checkbox"/><span>I hereby agree to follow all rules and confirmed that all details are accurate</span></div>
+                <label for="name"><span>Name</span> <input name="name" class="text" placeholder="Language used in the book. E.g. English"/></label>
+                <label for="email"><span>Email</span> <input name="email" class="text" type="email" placeholder="Your email. E.g. l.yeon@email.com"/></label>
+                <div class="checkbox-container"><input name="terms-agreement" type="checkbox"/><span>I hereby agree to follow all rules and confirmed that all details are accurate</span></div>
                 <button id="save-your-book">SAVE YOUR BOOK</button>
             </fieldset>
         </form>
